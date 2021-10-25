@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sunee/Desktop/java_test/src/eu/sita/TestNG">
+        <classes>
+            <class name="eu.sita.TestNG.Amazonwebsite">
+                <methods>
+                    <include name="signin"/>
+                    <include name="product_search"/>
+                    <exclude name="cart"/>
+                    <include name="signout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
